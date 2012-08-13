@@ -12,7 +12,7 @@ Less PHP : http://leafo.net/lessphp/
 
 Less JS : http://lesscss.org/
 
-The reset.less is roughly based off of the following approaches and will soon be updated to refrect the changes in these projects.
+The reset.scss is roughly based off of the following approaches and will soon be updated to refrect the changes in these projects.
 
 Eric Meyers reset : http://meyerweb.com/eric/tools/css/reset/
 
