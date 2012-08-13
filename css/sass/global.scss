@@ -15,7 +15,7 @@
 	// Custom webkit scrollbars
 	::-webkit-scrollbar {
 		background: $colour-compliment-light;
-		@include border-radius($border-sml);
+		@include border-radius($border-sml, $border-sml, $border-sml, $border-sml);
 		width: 12px;
 	}
 	::-webkit-scrollbar-track {
@@ -54,7 +54,7 @@
 	pre {
 		background: $colour-compliment-light;
 		border:1px dotted $colour-compliment;
-		@include border-radius($border-sml);
+		@include border-radius($border-sml, $border-sml, $border-sml, $border-sml);
 		display:block;
 		font-family: $font-family-code;
 		margin:0 0 $margin-lrg;
@@ -97,7 +97,7 @@
 		border-top: 1px solid $colour-compliment;
 		border-right: 1px solid $colour-compliment;
 		border-bottom: 1px solid $colour-compliment;
-		@include border-radius($border-sml);
+		@include border-radius($border-sml, $border-sml, $border-sml, $border-sml);
 		font-size: 1em;
 		margin: 0 0 $margin-lrg;
 		table-layout: fixed;

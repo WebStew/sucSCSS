@@ -27,7 +27,7 @@
 	.tabula-rasa {
 		background: $colour-sharp;
 		border: 1px solid $colour-compliment-dark;
-		@include border-radius($border-sml);
+		@include border-radius($border-sml, $border-sml, $border-sml, $border-sml);
 		margin: 0 0 $margin-lrg;
 		overflow: hidden;
 		padding: $pad-lrg $pad-med $pad-med;

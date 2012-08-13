@@ -1,13 +1,5 @@
 
 // Border radius
-/*
-@mixin border-radius($radius: $border-med) {
-	@include border-radius($radius-top, $radius-top, $radius-bottom, $radius-bottom);
-}
-@mixin border-radius($radius-top, $radius-bottom) {
-	@include border-radius($radius-top, $radius-top, $radius-bottom, $radius-bottom);
-}
-*/
 @mixin border-radius($radius-top-left, $radius-top-right, $radius-bottom-right, $radius-bottom-left) {
 	-webkit-border-radius:	$radius-top-left $radius-top-right $radius-bottom-right $radius-bottom-left;
 	-moz-border-radius:		$radius-top-left $radius-top-right $radius-bottom-right $radius-bottom-left;
