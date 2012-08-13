@@ -1,7 +1,7 @@
 sucSCSS
 ======
 
-A simple SASS CSS setup for your global cascade. There is an optional repsonsive CSS grid thrown in, still a work in progress but stands up pretty well to the current CSS within the sucSCSS project. Just remove the @import 'layout.less'; line within main.less to roll with your own / favourite grid setup.
+A simple SASS CSS setup for your global cascade. There is an optional repsonsive CSS grid thrown in, still a work in progress but stands up pretty well to the current CSS within the sucSCSS project. Just remove the @import 'layout'; line within main.scss to roll with your own / favourite grid setup.
 
 You will need your own preferred SASS compiler either of the following are a really good bet.
 I myself use LiveReload. 
